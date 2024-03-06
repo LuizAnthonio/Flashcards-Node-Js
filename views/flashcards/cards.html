@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" >
+    <title>Card</title>
+</head>
+<body>
+    <section id="dark">
+        
+        <button class="tema-btn" onclick="mudar()">Mudar Tema</button>
+        <div class="container">
+            <div class="card cartao" onclick="togglePergunta()">
+                <% if (mostrarPergunta) { %>
+                    <h2 id="pergunta" class="titulo frente"><%= card.pergunta %></h2>
+                <% } else { %>
+                    <h2 id="resposta" class="titulo "><%= card.resposta %></h2>
+                <% } %>
+                
+                
+            </div>
+
+            <div class="opcoes">
+                <% if (antes >= 0) { %>
+                    
+                    <a href="/flashcards/<%= card.materia %>/<%= antes %>">Anterior</a>
+                    
+                <% } else { %>
+                        
+                    <p></p>
+
+                <% } %>
+                        <a href="/flashcards/<%= card.materia %>/<%= prox %>">Proximo</a>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    
+
+
+<script>
+
+
+
+function togglePergunta() {
+    
+    var conteudoDiv = document.getElementById("conteudoDiv");
+    var pergunta = document.getElementById("pergunta");
+    var resposta = document.getElementById("resposta");
+    
+    if (pergunta) {
+        pergunta.id = "resposta";
+        pergunta.innerText = `<%= card.resposta %>`;
+    } else if (resposta) {
+        resposta.id = "pergunta";
+        resposta.innerText = "<%= card.pergunta %>";
+    }
+    var card = document.querySelector('.card');
+    card.classList.toggle('virar'); // toggle para alternar entre as classes
+}
+
+function mudar(){
+    var tema = document.getElementById("ligth")
+    var tema2 = document.getElementById("dark")
+    if(tema){
+        tema.id = "dark"
+        //alert("mudou bg2")
+    }else{
+        tema2.id = "ligth"
+        
+
+
+    }
+
+}
+
+
+</script>
+
+
+
+</body>
+</html>

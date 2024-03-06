@@ -1,0 +1,44 @@
+id,pergunta,resposta,materia;
+1,Quem é o caveleiro de pegasus?,seya,anime;
+2,Quem tem uma maldição de nivel especial com si?,Yuta,anime;
+3,Quanto é 1 + 1?,2,matematica; 
+4,Qual é a raiz de 9?,3,matematica; 
+5,Teste,tes,teste; 
+6,coisa,se,teste; 
+7,tres,3,teste; 
+8,vamoste,testar,teste; 
+10,Anymor,shameless,teste; 
+11,mais um teste,teste,teste; 
+12,Mais outro teste,test,teste;
+13,Quanto é 3 x 6?,18,matematica;
+14,O que é um registro?,Uma coisa física que pode assumir diferentes estados no tempo.,Dados;
+15,Qual é a ilustração utilizada para explicar um registro?,Uma lâmpada.,Dados;
+16,Quantos estados uma lâmpada pode ter?,Dois estados: ligada ou desligada.,Dados;
+17,O que significa dizer que o estado de uma lâmpada é observável?,Que um observador externo consegue perceber facilmente qual o seu estado atual.,Dados;
+18,Como o estado de uma lâmpada pode ser modificado?,Através da manipulação de um interruptor.,Dados;
+19,Como pode ser estendida a definição de um registro?, Como uma entidade concreta que assume um estado dentre um conjunto de possibilidades sendo este estado observável e potencialmente modificável.,Dados;
+20, O que é um dado?, O estado de um registro em um determinado momento.,Dados;
+21, O que pode ser considerado um dado em relação a uma lâmpada?, Uma lâmpada acessa e uma lâmpada apagada.,Dados;
+22, Quais são as características dos dados?, São concretos e podem ser construídos destruídos transportados copiados adulterados e armazenados.,Dados;
+23, Qual é a implicação da definição de dado em relação à sua manipulação?, Os dados podem ser manipulados de várias formas como construídos destruídos transportados copiados adulterados e armazenados.,Dados;
+24, Como um dado pode ser transportado?, Por exemplo colocando uma lanterna em um pacote e enviando pelos correios para um amigo.,Dados;
+25, O que significa dizer que um dado pode ser copiado ou transmitido?, Que outra pessoa pode comprar outra lanterna e copiar nela o estado da lanterna original.,Dados;
+26, Como um dado pode ser adulterado durante o transporte?, Por exemplo se o pacote cair e o interruptor da lanterna mudar de posição.,Dados;
+27, Onde um dado pode ser armazenado?, Por exemplo no armário da cozinha mesmo ligado.,Dados;
+28, O que é uma característica importante da natureza do dado?, Um dado não precisa ser relevante ou fazer sentido para ser um dado basta ser um registro com um estado definido.,Dados;
+29, O que é a essência da informação?, A associação entre o estado do registro (acesso ou apagado) e alguma observação do mundo (em gravação ou não).,Dados;
+30, Quando um dado se torna informação?, Quando é possível fazer a associação entre o estado do registro e algo observável no mundo.,Dados;
+95,Qual foi o sistema político desenvolvido na Grécia Antiga que é considerado um dos primeiros exemplos de democracia direta?,Democracia ateniense onde os cidadãos participavam diretamente das decisões políticas em assembleias públicas,História Antiga;
+84,Qual foi o principal produto agrícola da América Colonial que impulsionou a economia brasileira durante o período colonial?,Cana-de-açúcar cultivada principalmente nas capitanias nordestinas foi a base da economia açucareira,História do Brasil;
+87,Quais foram as principais expedições promovidas pelos bandeirantes no Brasil colonial?,As bandeiras tinham como objetivo principal a busca por ouro pedras preciosas e mão de obra indígena para o trabalho escravo,História do Brasil;
+86,Qual foi o principal líder quilombola que resistiu à escravidão no Brasil colonial fundando o Quilombo dos Palmares?,Zumbi dos Palmares que liderou a resistência quilombola contra a escravidão,História do Brasil;
+87,Quais foram os principais territórios incorporados ao Brasil durante o período colonial através das expedições de bandeirantes e pela assinatura de tratados internacionais?,Territórios como o Mato Grosso Goiás Rio Grande do Sul e partes da Amazônia foram incorporados ao Brasil durante o período colonial,História do Brasil;
+78,Quais foram as principais revoltas que marcaram o período da República Velha no Brasil?,Revolta de Canudos Revolta da Vacina Revolta da Chibata e Revolta do Contestado,História do Brasil;
+82,Quais foram os principais eventos que marcaram a Era Vargas no Brasil?,Implantação do Estado Novo criação das leis trabalhistas participação na Segunda Guerra Mundial e suicídio de Getúlio Vargas,História do Brasil;
+82,Quais foram as consequências sociais e econômicas da exploração do ouro na região de Minas Gerais durante o período colonial?,A exploração do ouro provocou um grande aumento populacional na região além do surgimento de uma economia mercantil e de uma classe média emergente,História do Brasil;
+91,Quais foram as principais mudanças nas constituições brasileiras ao longo da história do Brasil republicano?,Alterações no sistema de governo direitos políticos sociais e econômicos e a forma de organização do Estado,História do Brasil;
+89,Quais foram os principais avanços tecnológicos e ideológicos que marcaram a Guerra Fria?,Desenvolvimento da corrida espacial criação de armas nucleares teoria da dissuasão e conflitos em áreas de influência geopolítica,História Contemporânea;
+
+
+
+

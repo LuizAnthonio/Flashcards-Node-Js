@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" >
+    <title>flashcards</title>
+</head>
+<body>
+    <section id="dark">
+        
+        
+        <div class="container">
+
+            <h1 style="color: rgb(250, 250, 250);">Flashcards</h1>
+            <div class="single">
+                <% for(let i = 0; i < materia.length; i++){ %>
+                    <a style="color: aliceblue; text-decoration: none;margin: 10px; display: flex; align-items: center; justify-content: center;" class="tema-btn" href="/flashcards/<%= materia[i] %>/0"><%= materia[i] %></a>
+                    
+                <% } %>
+
+            </div>
+
+            
+            
+        </div>
+
+    </section>
+
+    
+
+
+<script>
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

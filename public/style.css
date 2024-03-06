@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.single{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,html{
+    height: 100%;
+}
+
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.card{
+    width: 60%;
+    height: 30vh;
+    background-color: rgb(60, 4, 113);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tema-btn{
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 3px;
+    color: aliceblue;
+    background-color: rgb(97, 45, 145);
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+}
+
+.card .titulo{
+    position: relative;
+    
+}
+
+section{
+    text-align: center;
+    
+}
+
+.frente {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.verso {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(0deg); /* vira o verso para trás */
+}
+
+.opcoes{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+
+#light{
+    background-color: aliceblue;
+}
+
+#dark{
+    background-color: rgb(17, 0, 34);
+}
+
+.opcoes a{
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Definir altura total da viewport */
+}
+
+.card {
+    width: 50%;
+    height: 350px;
+    perspective: 1000px; /* profundidade da perspectiva */
+    cursor: pointer;
+    position: relative;
+}
+
+
+.titulo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /* esconder a face traseira */
+    transition: transform 1.6s ease; /* transição suave */
+}
+
+/* Definir a animação de giro */
+@keyframes girarCartao {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Adicionar a classe de animação quando o cartão está virado */
+.virar {
+    animation: girarCartao 0.6s ease forwards;
+}
